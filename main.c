@@ -9,8 +9,8 @@
 
 int main(void) {
   char *temperature =readline("Enter temperature in celsius: ");
-double temperature2 =atof(temperature)*1.8 +32;
-double temperature3 =atof (temperature);
-  printf("%f° in Celsius is equivalent to %f° Fahrenheit. \n", temperature3, temperature2);
+double temperature2 = atof(temperature)*1.8 +32;
+double temperature3 = atof(temperature);
+  printf ("%f° in Celsius is equivalent to %f° Fahrenheit.\n", temperature3, temperature2);
   return 0;
 }
